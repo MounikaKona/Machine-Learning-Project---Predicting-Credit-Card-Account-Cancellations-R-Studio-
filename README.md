@@ -11,7 +11,7 @@ Credit Card Account Data:
 The credit_card_df dataframe contains information on the customers of a large US bank which provides a number of financial services including multiple credit card offerings.
 The bank is looking to determine the factors that lead to customers canceling their credit card account and whether it can predict if a customer will cancel their account in the future.
 
-Dataset Details
+Dataset Details:
 The outcome variable in this data is customer_status, which indicates whether a customer eventually closed their account, resulting in a financial loss to the company.
 The dataset contains a mixture of customer demographics and their financial behavior.
 
