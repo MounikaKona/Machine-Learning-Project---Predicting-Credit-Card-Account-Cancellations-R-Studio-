@@ -67,7 +67,7 @@ There are three types of cards. Blue, silver and gold. For the blue card, overal
 
 
 
-## Machine Learning Models
+## Machine Learning Modeling
 General Process
 The credit_card_df data was split into training and test sets.
 A feature engineering pipeline was defined using tidymodels::recipe that includes transformations for numeric and categorical features.
@@ -78,9 +78,6 @@ Visualized the importance of features in the trained logistic regression model.
 The yardstick package within the tidymodels framework was used to make predictions and evaluate the performance of the trained logistic regression model. Predictions were bound to the test dataset, evaluation metrics were computed, and the ROC curve was visualized.
 Model 2: Decision Tree Classification
 The rpart package was used to train a decision tree classifier.
-
-![image](https://github.com/user-attachments/assets/95105e75-d8a8-4f23-9b3e-90182778139f)
-
 The model was tuned using grid search to find the optimal hyperparameters.
 Visualized the decision tree and the importance of features.
 Model 3: Random Forest Classification
